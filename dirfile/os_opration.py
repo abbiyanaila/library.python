@@ -19,6 +19,6 @@ mypath = os.getcwd()
 mydir = os.path.join(mypath, 'testdir','test_again','again')
 os.makedirs(mydir, exist_ok=True)
 
-#755
+#755 for permission
 import stat
 os.chmod(mydir, stat.S_IRWXG)
