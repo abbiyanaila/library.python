@@ -1,7 +1,7 @@
 import shutil
 import os
 
-# #copy and paste operation
+#copy and paste operation
 base_path = os.getcwd()
 srcdir = os.path.join(base_path, 'dir1')
 srcfile = os.path.join(srcdir, 'sample.txt')
